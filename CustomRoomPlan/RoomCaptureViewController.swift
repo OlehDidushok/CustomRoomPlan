@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RoomCaptureViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
