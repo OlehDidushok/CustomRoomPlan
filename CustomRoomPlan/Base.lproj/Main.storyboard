@@ -15,14 +15,79 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xd-zD-fHZ">
+                                <rect key="frame" x="159.66666666666666" y="663" width="74" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Export"/>
+                                <connections>
+                                    <action selector="exportResults:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yz8-tL-K31"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="8F4-d9-gAp">
+                                <rect key="frame" x="186.66666666666666" y="450.66666666666669" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                        <constraints>
+                            <constraint firstItem="1xd-zD-fHZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6L3-cx-2wz"/>
+                            <constraint firstItem="8F4-d9-gAp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7Uw-yc-Vbe"/>
+                            <constraint firstItem="8F4-d9-gAp" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="QLA-mX-gpd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1xd-zD-fHZ" secondAttribute="bottom" constant="120" id="pET-ud-Q6a"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="t4B-gS-UIj"/>
+                    <navigationItem key="navigationItem" id="t4B-gS-UIj">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="zKp-Z9-2iZ">
+                            <connections>
+                                <action selector="cancelScanning:" destination="BYZ-38-t0r" id="MzG-08-Z64"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="IDs-gf-5wq">
+                            <connections>
+                                <action selector="doneScanning:" destination="BYZ-38-t0r" id="SPE-xv-ag9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicator" destination="8F4-d9-gAp" id="Qem-CR-Lpq"/>
+                        <outlet property="cancelButton" destination="zKp-Z9-2iZ" id="c5t-p9-onB"/>
+                        <outlet property="doneButton" destination="IDs-gf-5wq" id="B6D-xo-HtP"/>
+                        <outlet property="exportButton" destination="1xd-zD-fHZ" id="7cN-ff-Iff"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
+        </scene>
+        <!--Custom View Controller-->
+        <scene sceneID="xr0-LH-1bZ">
+            <objects>
+                <viewController storyboardIdentifier="CustomViewController" id="yIN-nX-eOo" customClass="CustomViewController" customModule="CustomRoomPlan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="CustomViewController" id="sdQ-1r-TDO">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hFo-EN-mDQ">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            </sceneKitView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Z4S-me-bJV"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="hFo-EN-mDQ" firstAttribute="top" secondItem="Z4S-me-bJV" secondAttribute="top" id="CE1-q1-1JV"/>
+                            <constraint firstItem="Z4S-me-bJV" firstAttribute="bottom" secondItem="hFo-EN-mDQ" secondAttribute="bottom" id="bQg-it-ziY"/>
+                            <constraint firstItem="Z4S-me-bJV" firstAttribute="trailing" secondItem="hFo-EN-mDQ" secondAttribute="trailing" id="uKI-th-X0M"/>
+                            <constraint firstItem="hFo-EN-mDQ" firstAttribute="leading" secondItem="Z4S-me-bJV" secondAttribute="leading" id="upj-CG-J6m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="hFo-EN-mDQ" id="YkK-oQ-wAW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EJM-wh-Qsg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1914" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XJh-U6-oXd">
@@ -97,8 +162,11 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

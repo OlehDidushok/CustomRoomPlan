@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3B6AFF2B3ADF2B002621E5 /* storage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE3B6AFB2B3ADF2B002621E5 /* storage.usdz */; };
+		CE3B6B002B3ADF2B002621E5 /* chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE3B6AFC2B3ADF2B002621E5 /* chair.usdz */; };
+		CE3B6B012B3ADF2B002621E5 /* bed.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE3B6AFD2B3ADF2B002621E5 /* bed.usdz */; };
+		CE3B6B022B3ADF2B002621E5 /* table.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE3B6AFE2B3ADF2B002621E5 /* table.usdz */; };
 		CE6F933B2B33204100FACD16 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F933A2B33204100FACD16 /* OnboardingViewController.swift */; };
 		CE6F933F2B3321D300FACD16 /* UnsupportedDevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F933E2B3321D300FACD16 /* UnsupportedDevice.storyboard */; };
 		CEB8F4032B330EB5005901C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8F4022B330EB5005901C9 /* AppDelegate.swift */; };
@@ -15,9 +19,14 @@
 		CEB8F40A2B330EB5005901C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8F4082B330EB5005901C9 /* Main.storyboard */; };
 		CEB8F40C2B330EB6005901C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB8F40B2B330EB6005901C9 /* Assets.xcassets */; };
 		CEB8F40F2B330EB6005901C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8F40D2B330EB6005901C9 /* LaunchScreen.storyboard */; };
+		CED575632B35DC4100456A6D /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED575622B35DC4100456A6D /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3B6AFB2B3ADF2B002621E5 /* storage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = storage.usdz; sourceTree = "<group>"; };
+		CE3B6AFC2B3ADF2B002621E5 /* chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair.usdz; sourceTree = "<group>"; };
+		CE3B6AFD2B3ADF2B002621E5 /* bed.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = bed.usdz; sourceTree = "<group>"; };
+		CE3B6AFE2B3ADF2B002621E5 /* table.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table.usdz; sourceTree = "<group>"; };
 		CE6F933A2B33204100FACD16 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		CE6F933E2B3321D300FACD16 /* UnsupportedDevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnsupportedDevice.storyboard; sourceTree = "<group>"; };
 		CEB8F3FF2B330EB5005901C9 /* CustomRoomPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomRoomPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +37,7 @@
 		CEB8F40B2B330EB6005901C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB8F40E2B330EB6005901C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB8F4102B330EB6005901C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED575622B35DC4100456A6D /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +74,15 @@
 				CEB8F4042B330EB5005901C9 /* SceneDelegate.swift */,
 				CEB8F4062B330EB5005901C9 /* RoomCaptureViewController.swift */,
 				CE6F933A2B33204100FACD16 /* OnboardingViewController.swift */,
+				CED575622B35DC4100456A6D /* CustomViewController.swift */,
 				CEB8F4082B330EB5005901C9 /* Main.storyboard */,
 				CE6F933E2B3321D300FACD16 /* UnsupportedDevice.storyboard */,
 				CEB8F40B2B330EB6005901C9 /* Assets.xcassets */,
 				CEB8F40D2B330EB6005901C9 /* LaunchScreen.storyboard */,
+				CE3B6AFD2B3ADF2B002621E5 /* bed.usdz */,
+				CE3B6AFC2B3ADF2B002621E5 /* chair.usdz */,
+				CE3B6AFB2B3ADF2B002621E5 /* storage.usdz */,
+				CE3B6AFE2B3ADF2B002621E5 /* table.usdz */,
 				CEB8F4102B330EB6005901C9 /* Info.plist */,
 			);
 			path = CustomRoomPlan;
@@ -132,9 +147,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6F933F2B3321D300FACD16 /* UnsupportedDevice.storyboard in Resources */,
+				CE3B6B002B3ADF2B002621E5 /* chair.usdz in Resources */,
 				CEB8F40F2B330EB6005901C9 /* LaunchScreen.storyboard in Resources */,
+				CE3B6B012B3ADF2B002621E5 /* bed.usdz in Resources */,
 				CEB8F40C2B330EB6005901C9 /* Assets.xcassets in Resources */,
 				CEB8F40A2B330EB5005901C9 /* Main.storyboard in Resources */,
+				CE3B6B022B3ADF2B002621E5 /* table.usdz in Resources */,
+				CE3B6AFF2B3ADF2B002621E5 /* storage.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +166,7 @@
 			files = (
 				CEB8F4072B330EB5005901C9 /* RoomCaptureViewController.swift in Sources */,
 				CEB8F4032B330EB5005901C9 /* AppDelegate.swift in Sources */,
+				CED575632B35DC4100456A6D /* CustomViewController.swift in Sources */,
 				CEB8F4052B330EB5005901C9 /* SceneDelegate.swift in Sources */,
 				CE6F933B2B33204100FACD16 /* OnboardingViewController.swift in Sources */,
 			);
