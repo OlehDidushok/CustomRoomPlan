@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE3B6AFF2B3ADF2B002621E5 /* storage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE3B6AFB2B3ADF2B002621E5 /* storage.usdz */; };
-		CE3B6B002B3ADF2B002621E5 /* chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE3B6AFC2B3ADF2B002621E5 /* chair.usdz */; };
-		CE3B6B012B3ADF2B002621E5 /* bed.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE3B6AFD2B3ADF2B002621E5 /* bed.usdz */; };
-		CE3B6B022B3ADF2B002621E5 /* table.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE3B6AFE2B3ADF2B002621E5 /* table.usdz */; };
 		CE6F933B2B33204100FACD16 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F933A2B33204100FACD16 /* OnboardingViewController.swift */; };
 		CE6F933F2B3321D300FACD16 /* UnsupportedDevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F933E2B3321D300FACD16 /* UnsupportedDevice.storyboard */; };
 		CEB8F4032B330EB5005901C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8F4022B330EB5005901C9 /* AppDelegate.swift */; };
@@ -20,13 +16,19 @@
 		CEB8F40C2B330EB6005901C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB8F40B2B330EB6005901C9 /* Assets.xcassets */; };
 		CEB8F40F2B330EB6005901C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8F40D2B330EB6005901C9 /* LaunchScreen.storyboard */; };
 		CED575632B35DC4100456A6D /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED575622B35DC4100456A6D /* CustomViewController.swift */; };
+		CEDADB3B2B3C193F00D76B23 /* table.dae in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB3A2B3C193F00D76B23 /* table.dae */; };
+		CEDADB3D2B3C198F00D76B23 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB3C2B3C198F00D76B23 /* wood.jpg */; };
+		CEDADB452B3C1FFB00D76B23 /* storage.dae in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB442B3C1FFB00D76B23 /* storage.dae */; };
+		CEDADB472B3C204200D76B23 /* storageDiffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB462B3C204200D76B23 /* storageDiffuse.jpg */; };
+		CEDADB4B2B3C238600D76B23 /* chairBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB4A2B3C238600D76B23 /* chairBack.jpg */; };
+		CEDADB4D2B3C243F00D76B23 /* bed.dae in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB4C2B3C243F00D76B23 /* bed.dae */; };
+		CEDADB512B3C246300D76B23 /* Male_default_diffuse_scale0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB4E2B3C246300D76B23 /* Male_default_diffuse_scale0.jpg */; };
+		CEDADB522B3C246300D76B23 /* 09_-_Default_diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB4F2B3C246300D76B23 /* 09_-_Default_diffuse.jpg */; };
+		CEDADB532B3C246300D76B23 /* 03_-_Default_diffuse_scale1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB502B3C246300D76B23 /* 03_-_Default_diffuse_scale1.jpg */; };
+		CEDADB592B3C399000D76B23 /* chair.dae in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB582B3C399000D76B23 /* chair.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE3B6AFB2B3ADF2B002621E5 /* storage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = storage.usdz; sourceTree = "<group>"; };
-		CE3B6AFC2B3ADF2B002621E5 /* chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair.usdz; sourceTree = "<group>"; };
-		CE3B6AFD2B3ADF2B002621E5 /* bed.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = bed.usdz; sourceTree = "<group>"; };
-		CE3B6AFE2B3ADF2B002621E5 /* table.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table.usdz; sourceTree = "<group>"; };
 		CE6F933A2B33204100FACD16 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		CE6F933E2B3321D300FACD16 /* UnsupportedDevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnsupportedDevice.storyboard; sourceTree = "<group>"; };
 		CEB8F3FF2B330EB5005901C9 /* CustomRoomPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomRoomPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +40,16 @@
 		CEB8F40E2B330EB6005901C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB8F4102B330EB6005901C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED575622B35DC4100456A6D /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		CEDADB3A2B3C193F00D76B23 /* table.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = table.dae; sourceTree = "<group>"; };
+		CEDADB3C2B3C198F00D76B23 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		CEDADB442B3C1FFB00D76B23 /* storage.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = storage.dae; sourceTree = "<group>"; };
+		CEDADB462B3C204200D76B23 /* storageDiffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = storageDiffuse.jpg; sourceTree = "<group>"; };
+		CEDADB4A2B3C238600D76B23 /* chairBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chairBack.jpg; sourceTree = "<group>"; };
+		CEDADB4C2B3C243F00D76B23 /* bed.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bed.dae; sourceTree = "<group>"; };
+		CEDADB4E2B3C246300D76B23 /* Male_default_diffuse_scale0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Male_default_diffuse_scale0.jpg; sourceTree = "<group>"; };
+		CEDADB4F2B3C246300D76B23 /* 09_-_Default_diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "09_-_Default_diffuse.jpg"; sourceTree = "<group>"; };
+		CEDADB502B3C246300D76B23 /* 03_-_Default_diffuse_scale1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03_-_Default_diffuse_scale1.jpg"; sourceTree = "<group>"; };
+		CEDADB582B3C399000D76B23 /* chair.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = chair.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +90,18 @@
 				CEB8F4082B330EB5005901C9 /* Main.storyboard */,
 				CE6F933E2B3321D300FACD16 /* UnsupportedDevice.storyboard */,
 				CEB8F40B2B330EB6005901C9 /* Assets.xcassets */,
+				CEDADB502B3C246300D76B23 /* 03_-_Default_diffuse_scale1.jpg */,
+				CEDADB4F2B3C246300D76B23 /* 09_-_Default_diffuse.jpg */,
+				CEDADB4E2B3C246300D76B23 /* Male_default_diffuse_scale0.jpg */,
+				CEDADB3C2B3C198F00D76B23 /* wood.jpg */,
+				CEDADB462B3C204200D76B23 /* storageDiffuse.jpg */,
+				CEDADB4A2B3C238600D76B23 /* chairBack.jpg */,
 				CEB8F40D2B330EB6005901C9 /* LaunchScreen.storyboard */,
-				CE3B6AFD2B3ADF2B002621E5 /* bed.usdz */,
-				CE3B6AFC2B3ADF2B002621E5 /* chair.usdz */,
-				CE3B6AFB2B3ADF2B002621E5 /* storage.usdz */,
-				CE3B6AFE2B3ADF2B002621E5 /* table.usdz */,
+				CEDADB442B3C1FFB00D76B23 /* storage.dae */,
+				CEDADB4C2B3C243F00D76B23 /* bed.dae */,
+				CEDADB3A2B3C193F00D76B23 /* table.dae */,
 				CEB8F4102B330EB6005901C9 /* Info.plist */,
+				CEDADB582B3C399000D76B23 /* chair.dae */,
 			);
 			path = CustomRoomPlan;
 			sourceTree = "<group>";
@@ -115,6 +133,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					"§",
+				);
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
@@ -146,14 +167,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDADB472B3C204200D76B23 /* storageDiffuse.jpg in Resources */,
+				CEDADB512B3C246300D76B23 /* Male_default_diffuse_scale0.jpg in Resources */,
+				CEDADB452B3C1FFB00D76B23 /* storage.dae in Resources */,
 				CE6F933F2B3321D300FACD16 /* UnsupportedDevice.storyboard in Resources */,
-				CE3B6B002B3ADF2B002621E5 /* chair.usdz in Resources */,
+				CEDADB532B3C246300D76B23 /* 03_-_Default_diffuse_scale1.jpg in Resources */,
 				CEB8F40F2B330EB6005901C9 /* LaunchScreen.storyboard in Resources */,
-				CE3B6B012B3ADF2B002621E5 /* bed.usdz in Resources */,
 				CEB8F40C2B330EB6005901C9 /* Assets.xcassets in Resources */,
+				CEDADB592B3C399000D76B23 /* chair.dae in Resources */,
+				CEDADB4D2B3C243F00D76B23 /* bed.dae in Resources */,
+				CEDADB522B3C246300D76B23 /* 09_-_Default_diffuse.jpg in Resources */,
 				CEB8F40A2B330EB5005901C9 /* Main.storyboard in Resources */,
-				CE3B6B022B3ADF2B002621E5 /* table.usdz in Resources */,
-				CE3B6AFF2B3ADF2B002621E5 /* storage.usdz in Resources */,
+				CEDADB4B2B3C238600D76B23 /* chairBack.jpg in Resources */,
+				CEDADB3B2B3C193F00D76B23 /* table.dae in Resources */,
+				CEDADB3D2B3C198F00D76B23 /* wood.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

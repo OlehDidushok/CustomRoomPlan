@@ -79,7 +79,7 @@ class CustomViewController: UIViewController {
     private func getAllNodes(for objects: [CapturedRoom.Object], category: CapturedRoom.Object.Category) -> [SCNNode] {
         var nodes: [SCNNode] = []
         let modelName = getModelName(from: category)
-        if let objectUrl = Bundle.main.url(forResource: modelName, withExtension: "usdz"),
+        if let objectUrl = Bundle.main.url(forResource: modelName, withExtension: "dae"),
            let objectScene = try? SCNScene(url: objectUrl),
            let objectNode = objectScene.rootNode.childNodes.first {
             objects.enumerated().forEach { index, object in
@@ -88,9 +88,9 @@ class CustomViewController: UIViewController {
                 node.transform = SCNMatrix4(object.transform)
                 node.name = String("\(object.category)")
                 
-//                print("\(node.name)" + "\(node.height)"+"  "+"\(node.width)"+"  "+"\(node.length)")
+                print("\(node.name)" + "\(node.height)"+"  "+"\(node.width)"+"  "+"\(node.length)")
                 nodes.append(node)
-//                node.scale = SCNVector3(x: 0.01, y:  0.01, z:  0.01)
+//                node.scale = SCNVector3(x: 0.0037, y:  0.0029, z:  0.0035)
             }
         }
         return nodes
