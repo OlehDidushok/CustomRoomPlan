@@ -90,7 +90,6 @@ class CustomViewController: UIViewController {
                 
                 print("\(node.name)" + "\(node.height)"+"  "+"\(node.width)"+"  "+"\(node.length)")
                 nodes.append(node)
-//                node.scale = SCNVector3(x: 0.0037, y:  0.0029, z:  0.0035)
             }
         }
         return nodes
@@ -115,7 +114,6 @@ class CustomViewController: UIViewController {
 }
 
 extension SCNNode {
-    
     var height: CGFloat { CGFloat(self.boundingBox.max.y - self.boundingBox.min.y) }
     var width: CGFloat { CGFloat(self.boundingBox.max.x - self.boundingBox.min.x) }
     var length: CGFloat { CGFloat(self.boundingBox.max.z - self.boundingBox.min.z) }
